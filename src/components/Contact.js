@@ -1,35 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import { Header, Container } from "./Profile";
-
-const social = [
-  {
-    name: "Linked-In",
-    url: "https://www.linkedin.com/in/harsh-lakhanpal-9b1180135/",
-    icon: "fab fa-linkedin",
-  },
-  {
-    name: "Twitter",
-    url: "https://twitter.com/HarshLakhanpal2",
-    icon: "fab fa-twitter",
-  },
-  {
-    name: "Angel List",
-    url: "https://angel.co/u/harsh-lakhanpal",
-    icon: "fab fa-angellist",
-  },
-  {
-    name: "Github",
-    url: "https://github.com/harshlakhanpal",
-    icon: "fab fa-github ",
-  },
-  {
-    name: "mail",
-    url: "mailto:harshlakhanpaln@gmail.com",
-    icon: "fab fa-envelope-square",
-  },
-];
-
+import { Header, Container } from "./Education";
+import { social } from "../details";
 const Social = styled.a`
    {
     color: #4d4e4f;
@@ -54,10 +26,10 @@ const Contact = () => {
       />
     ));
   };
-  //   return <div>{socialLinks()}</div>;
+
   return (
-    <Container>
-      <Header>Let's connect socially</Header>
+    <Container style={{ marginTop: "5%", marginBottom: "5%" }}>
+      <Header style={{ marginTop: "2%" }}>Let's connect socially</Header>
       <>{socialLinks()}</>
     </Container>
   );

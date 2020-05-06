@@ -1,18 +1,7 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
-import { Header, ContentColumn, ContentRow, Container } from "./Profile";
-
-const skills = [
-  "Html",
-  "Css",
-  "Javascript(es6)",
-  "React",
-  "MongoDB",
-  "Node.js  Express.js",
-  "Redux",
-  "GraphQL",
-  "Git",
-];
+import { Header, ContentColumn, ContentRow, Container } from "./Education";
+import { skills } from "../details";
 
 export const bounce = keyframes`{
    0%{

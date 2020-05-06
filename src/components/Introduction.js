@@ -1,8 +1,5 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
-// import Particles from "react-particles-js";
-// import handwave from "../images/handwave.png";
-
 const pulse = keyframes`
 25%  {transform: scale(0.9);}
   75%  {transform: scale(1.0);}
