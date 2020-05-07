@@ -26,7 +26,7 @@ const Para = styled.h2`
 `;
 const Container = styled.section`
   ${"" /* max-width: 1336pax; */} {
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 100%;
     top: 35%;
@@ -37,7 +37,7 @@ const Container = styled.section`
 function Introduction() {
   return (
     <>
-      <Container>
+      <Container id="container-intro">
         <IntroLine>
           &lt; Hi,I'm Harsh Lakhanpal &gt;
           <span role="img" aria-label="handwave">

@@ -41,6 +41,14 @@ const GlobalStyle = createGlobalStyle`
    #particles{
       display:none
    }
+   #container-intro{
+      position: relative;
+    width: 100%;
+    height: 100%;
+    ${"" /* top: 35%; */}
+    text-align: center;
+    z-index: 9;
+   }
    #intro-para{
       margin:10px;
    }
@@ -48,6 +56,7 @@ const GlobalStyle = createGlobalStyle`
       margin-left:60px;
    }
 }
+
 `;
 
 export default GlobalStyle;
