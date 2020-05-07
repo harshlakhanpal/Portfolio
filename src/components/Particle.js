@@ -3,6 +3,7 @@ import Particles from "react-particles-js";
 const Particle = () => {
   return (
     <Particles
+      id="particles"
       style={{ zIndex: 10, position: "relative" }}
       params={{
         particles: {

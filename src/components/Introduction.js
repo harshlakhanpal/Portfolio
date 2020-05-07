@@ -26,7 +26,7 @@ const Para = styled.h2`
 `;
 const Container = styled.section`
   ${"" /* max-width: 1336pax; */} {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 100%;
     top: 35%;
@@ -44,7 +44,7 @@ function Introduction() {
             👋
           </span>
         </IntroLine>
-        <Para>
+        <Para id="intro-para">
           I'm a budding,self-taught Full-Stack Developer,looking forward to not
           only solve your problems but also learning from them. I am also
           interested in trying my hands on Open-Source Projects.

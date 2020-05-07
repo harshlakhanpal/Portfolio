@@ -36,6 +36,18 @@ const GlobalStyle = createGlobalStyle`
 ::-webkit-scrollbar-thumb:hover {
   background: black; 
 }
+
+@media screen and (max-width: 500px) {
+   #particles{
+      display:none
+   }
+   #intro-para{
+      margin:10px;
+   }
+   #skill{
+      margin-left:60px;
+   }
+}
 `;
 
 export default GlobalStyle;

@@ -49,7 +49,9 @@ const Skills = () => {
   const displaySkills = () => {
     let skill = skills.map((skill) => (
       <Contentcolumn key={skill}>
-        <Skill disabled={true}>{skill}</Skill>
+        <Skill id="skill" disabled={true}>
+          {skill}
+        </Skill>
       </Contentcolumn>
     ));
     return skill;
