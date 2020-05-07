@@ -47,7 +47,7 @@ function Introduction() {
         <Para>
           I'm a budding,self-taught Full-Stack Developer,looking forward to not
           only solve your problems but also learning from them. I am also
-          interested in trying my hands on Open-Source Contributions.
+          interested in trying my hands on Open-Source Projects.
           <br />
           When I'm not coding, I'm either playing{"   "}
           <span role="img" aria-label="football">

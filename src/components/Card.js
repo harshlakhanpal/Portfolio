@@ -1,5 +1,6 @@
 import React from "react";
 import { Education } from "../details";
+import "./Card.css";
 
 const Card = (props) => {
   let displayContent = Education[props.name];
