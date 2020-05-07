@@ -7,9 +7,9 @@ const Social = styled.a`
     color: #4d4e4f;
     margin-right: 30px;
     margin-left: 30px;
-    font-size: 2em;
+    ${"" /* font-size: 2em; */}
     &:hover {
-      color: #999999;
+      fill: #999999;
     }
   }
 `;
@@ -22,8 +22,16 @@ const Contact = () => {
         href={s.url}
         target="_blank"
         rel="noopener noreferrer"
-        className={s.icon}
-      />
+      >
+        <img
+          src={s.icon}
+          style={{
+            maxWidth: "30px",
+            maxHeight: "30px",
+          }}
+          alt={s.name}
+        />
+      </Social>
     ));
   };
 

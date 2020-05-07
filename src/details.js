@@ -1,28 +1,34 @@
+import github from "./images/github.svg";
+import gmail from "./images/gmail.svg";
+import twitter from "./images/twitter.svg";
+import angellist from "./images/angellist.svg";
+import linkedin from "./images/linkedin.svg";
+
 export const social = [
   {
     name: "Linked-In",
     url: "https://www.linkedin.com/in/harsh-lakhanpal-9b1180135/",
-    icon: "fab fa-linkedin",
+    icon: linkedin,
   },
   {
     name: "Twitter",
     url: "https://twitter.com/HarshLakhanpal2",
-    icon: "fab fa-twitter",
+    icon: twitter,
   },
   {
     name: "Angel List",
     url: "https://angel.co/u/harsh-lakhanpal",
-    icon: "fab fa-angellist",
+    icon: angellist,
   },
   {
     name: "Github",
     url: "https://github.com/harshlakhanpal",
-    icon: "fab fa-github ",
+    icon: github,
   },
   {
     name: "mail",
     url: "mailto:harshlakhanpaln@gmail.com",
-    icon: "fab fa-google",
+    icon: gmail,
   },
 ];
 
