@@ -7,7 +7,7 @@ export const Container = styled.div`
     width: 100 %;
     height: 50%;
     text-align: center;
-    margin: 40px auto;
+    margin: 56px auto;
     &:hover {
       color: #999999;
     }

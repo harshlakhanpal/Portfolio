@@ -39,15 +39,16 @@ function Introduction() {
     <>
       <Container id="container-intro">
         <IntroLine>
-          &lt; Hi,I'm Harsh Lakhanpal &gt;
+          &lt; Hi, I'm Harsh Lakhanpal &gt;
           <span role="img" aria-label="handwave">
             👋
           </span>
         </IntroLine>
         <Para id="intro-para">
-          I'm a budding,self-taught Full-Stack Developer,looking forward to not
-          only solve your problems but also learning from them. I am also
-          interested in trying my hands on Open-Source Projects.
+          I'm a budding, self-taught Full-Stack Developer, looking forward to
+          not only solve your problems but also learn from them. I have a
+          working experience of around 2 years and want to continue learning
+          more.
           <br />
           When I'm not coding, I'm either playing{"   "}
           <span role="img" aria-label="football">

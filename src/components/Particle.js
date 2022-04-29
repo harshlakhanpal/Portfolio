@@ -1,5 +1,6 @@
 import React from "react";
 import Particles from "react-particles-js";
+
 const Particle = () => {
   return (
     <Particles
@@ -8,10 +9,14 @@ const Particle = () => {
       params={{
         particles: {
           number: {
-            value: 100,
+            value: 50,
           },
           size: {
             value: 1,
+          },
+          move: {
+            enable: true,
+            direction: "bottom",
           },
         },
         interactivity: {

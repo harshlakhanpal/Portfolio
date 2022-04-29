@@ -1,11 +1,13 @@
 import React from "react";
 import styled from "styled-components";
+import Fade from "react-reveal/Fade";
+
 import Education from "./components/Education";
 import Introduction from "./components/Introduction";
 import GlobalStyle from "./theme/globalStyles";
-import Fade from "react-reveal/Fade";
 import Particle from "./components/Particle";
 import Skills from "./components/Skills";
+import Work from "./components/Work";
 import Contact from "./components/Contact";
 
 const AppWrapper = styled.div`
@@ -23,10 +25,11 @@ function App() {
       <GlobalStyle />
       <AppWrapper>
         <Particle />
+        <Introduction />
         <Fade top>
-          <Introduction />
           <Education />
           <Skills />
+          <Work />
           <Contact />
         </Fade>
       </AppWrapper>

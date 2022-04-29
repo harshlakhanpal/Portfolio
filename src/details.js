@@ -38,10 +38,13 @@ export const skills = [
   "Javascript(es6)",
   "React",
   "MongoDB",
-  "Node.js  Express.js",
+  "Node.js",
   "Redux",
   "GraphQL",
   "Git",
+  "React Native",
+  "AWS",
+  "Next js",
 ];
 
 export const Education = {
@@ -67,3 +70,22 @@ export const Education = {
     marks: "88.5",
   },
 };
+
+export const workExperience = [
+  {
+    name: "EduFund",
+    position: "Full Stack Engineer",
+
+    startDate: "04/09/2020",
+    endDate: "",
+    isCurrent: true,
+    about: "Building India's first 529",
+    tasks: [
+      "Worked on building multiple screens, reusable components, features and various logical implementations across the mobile app.",
+      "Learned multiple concepts while creating apis, handling apis/data from thrid party services and implementing multiple features across a microservice architecture.",
+      "Gained some understanding about a few AWS services and got the chance to work on them as well.",
+      "Worked on a white labelled solution for a crucial part of the product.",
+      "Directly involved in implementing multiple third party services across the stack.",
+    ],
+  },
+];

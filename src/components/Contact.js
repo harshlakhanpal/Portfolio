@@ -37,7 +37,7 @@ const Contact = () => {
 
   return (
     <Container style={{ marginTop: "5%", marginBottom: "5%" }}>
-      <Header style={{ marginTop: "2%" }}>Let's connect socially</Header>
+      <Header style={{ marginTop: "2%" }}>Connect with me on</Header>
       <>{socialLinks()}</>
     </Container>
   );
